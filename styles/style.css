@@ -85,7 +85,8 @@
   background-size: cover;
 }
 
-.overlay {
+.overlay::before {
+  content: "";
   position: absolute;
   inset: 0;
   z-index: 1;
